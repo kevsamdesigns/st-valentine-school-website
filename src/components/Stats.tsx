@@ -3,8 +3,8 @@ import { useEffect, useRef, useState } from "react";
 const stats = [
   { value: 800, suffix: "+", label: "Students" },
   { value: 30, suffix: "+", label: "Teachers" },
-  { value: 7, suffix: "", label: "Streams" },
-  { value: 22000, suffix: "+", label: "Alumni" },
+  { value: 12, suffix: "", label: "Streams" },
+  { value: 12000, suffix: "+", label: "Alumni" },
 ];
 
 const useCounter = (target: number, active: boolean, duration = 1800) => {
